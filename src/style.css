@@ -1,0 +1,9 @@
+.title {
+    font-family: 'Helvetica Neue';
+}
+.red{
+color:red;
+}
+.new-line {
+    white-space: pre-line;
+  }
