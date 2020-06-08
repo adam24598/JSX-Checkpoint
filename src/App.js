@@ -1,16 +1,15 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import "./style.css"
 import imageInSrc from "./imageInSrc.png";
 function App() {
-  return (
+  return (<div>
     <div style={{border:'solid 1px black',maxWidth:"100vw"}}>  
           	
-            <div><h1 className="title red"> Your name here </h1>  </div>
+            <h1 className="title red"> Your name here </h1>  
             <div className='new-line'></div>
  
-            <div><img src={imageInSrc.jpg} alt="erreur"/>   </div>         
+            <img src={imageInSrc.jpg} alt="erreur"/>         
              <div className='new-line'></div>
 
  
@@ -24,7 +23,9 @@ function App() {
  
     </video>
     </div>
+    </div>
   );
 }
 
 export default App;
+
